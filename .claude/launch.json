@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "wedding-site",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["vite", "--config", "main/vite.config.js", "main"],
+      "autoPort": true
+    },
+    {
+      "name": "wife-site",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["vite", "--config", "wife/vite.config.js", "wife"],
+      "autoPort": true
+    }
+  ]
+}
