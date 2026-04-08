@@ -11,5 +11,11 @@
   },
   "compatibility_flags": [
     "nodejs_compat"
+  ],
+  "routes": [
+    {
+      "pattern": "ourday.uz",
+      "custom_domain": true
+    }
   ]
 }
